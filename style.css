@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-transform: capitalize;
+}
+header {
+  background-color: rgb(89, 89, 255);
+  padding: 2.5em 0;
+  color: aliceblue;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+header nav ul {
+  display: flex;
+  font-size: 1.5rem;
+  justify-content: flex-end;
+  gap: 2em;
+}
+@media (max-width: 800px) {
+  nav ul {
+    flex-direction: column;
+  }
+}
+li a:hover {
+  color: black;
+}
+.logo {
+  margin-right: auto;
+}
+.main {
+  background-image: url(./about.jpg);
+  height: 30rem;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-text {
+  width: 50%;
+  height: 70%;
+  color: aliceblue;
+  text-align: center;
+  padding-top: 6em;
+  background-color: rgba(104, 104, 255, 0.678);
+  overflow: auto;
+}
+.picture {
+  display: flex;
+  height: 50vh;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.one {
+  background-image: url(./one.png);
+  background-position: center;
+  width: 400px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.two {
+  background-image: url(./two.jpg);
+  width: 400px;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.three {
+  background-image: url(./three.jpg);
+  width: 400px;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.footer {
+  background-image: url(./download.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
+  text-align: center;
+  padding: 40px 100px;
+}
